@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gunicorn = "*"
+flask = "*"
+requests = "*"
+asyncio = "*"
+simple_youtube_api = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+google-auth = "*"
+google-api-python-client = "*"
+google = "*"
+pickle-mixin = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9.0"
